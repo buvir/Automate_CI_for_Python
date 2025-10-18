@@ -1,0 +1,47 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+.venv.bak/
+
+# Logs and coverage reports
+*.log
+*.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Test / Pytest cache
+.pytest_cache/
+
+# CI / temporary artifacts
+junit.xml
+reports/
+artifacts/
+*.out
+
+# Ignore data and temporary JSON backups
+data/*.tmp.json
+*.bak.json
